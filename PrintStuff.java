@@ -1,6 +1,10 @@
 
 public class PrintStuff {
 	public static void main(String[] args){
-		System.out.println("Stuff");
+		PrinterObject po = new PrinterObject("This is");
+		PrinterObject po2= new PrinterObject("Source Control");
+		
+		po.print();
+		po2.print();
 	}
 }
